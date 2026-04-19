@@ -30,7 +30,8 @@ If the answer is wrong ❌ the game ends.
 
 (Add your screenshots here)
 
-![Flag Quiz Screenshot](screenshots/app.png)
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/23c93d4f-deb7-455d-89bf-8f3475a97f63" />
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/b1d1cba2-5640-4d65-a603-22dce5e18e18" />
 
 ---
 
@@ -117,7 +118,25 @@ const db = new pg.Client({
   password: "your_password",
   port: 5432
 });
+
 ```
+## ⚠️ Note
+
+Flag emojis are rendered using **regional indicator symbols**.
+
+On some systems (especially **Chrome on Windows**), the flags may appear as text like:
+
+US
+IN
+FR
+
+instead of flag emojis.
+
+To properly view the flags, run the project in:
+
+🦊 **Firefox browser**
+
+This ensures the flags display correctly.
 
 ---
 
